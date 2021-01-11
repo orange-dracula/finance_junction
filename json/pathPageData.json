@@ -1,0 +1,47 @@
+{"facultymembers":[
+	{
+		"title": "High School Student",
+		"val": "hsStud",
+		"text": "• Open a checking/savings account and understand the basics of managing it.<br><br>\n            • Start saving for college (its never too early).<br><br>\n            • Get a credit card and start building your credit.<br><br>\n            • Learn about loans, credit scores and interest.<br><br>\n            • Make an emergency fund for future.<br><br>"
+	},
+	{
+		"title": "College Student",
+		"val": "colStud",
+		"text": "• Open a savings account (and a checking account if you don't have one).<br><br>\n            • Learn basics of budgeting.<br><br>\n            • Open a credit karma account or other financial service account to check your credit score.<br><br>\n            • When getting a student loan, consider Federal grants and loans (at studentaid.gov).<br><br>\n            • Make an emergency fund for a rainy day.<br><br>"
+	},
+	{
+		"title": "Recent Graduate",
+		"val": "recGrad",
+		"text": "• Open a savings account.<br><br>\n            • Keep track of your credit score.<br><br>\n            • Start looking into 401K or other retirement funds.<br><br>\n            • Learn about different types of loans, interests and budgeting.<br><br>\n            • Make an emergency fund for a rainy day.<br><br>"
+	},
+	{
+		"title": "Bank Account",
+		"val": "bankAcc",
+		"text": "• Two main types of accounts: Checking and Savings.<br><br>\n            • Checking is used for everyday usage and saving is used for savings as the name suggests.<br><br>\n            • Opening a bank account early is important and can help you get lower interest rates in the future.<br><br>"
+	},
+	{
+		"title": "College Fund",
+		"val": "colFund",
+		"text": "• Important start saving for college as soon as possible.<br><br>\n            • Consider FAFSA when getting a loan.<br><br>\n            • Federal loans offer better rate compared to private.<br><br>"
+	},
+	{
+		"title": "Credit",
+		"val": "credit",
+		"text": "• Having a good credit can determine everything from how much mortgage you pay to your credit limit.<br><br>\n            • Get a credit card as early as possible.<br><br>\n            • Track your credit score with Credit Karma.<br><br>"
+	},
+	{
+		"title": "401K",
+		"val": "four-o-one-k",
+		"text": "• Saving for retirement is important and 401K can help with that.<br><br>\n            • If you are employed, ask your employer what kind of 401K benefits you can get.<br><br>\n            • You can open a 401K account without being employed.<br><br>"
+	},
+	{
+		"title": "Loans",
+		"val": "loans",
+		"text": "• When getting a loan, consider all the options available.<br><br>\n            • Different banks offer different interest rates.<br><br>\n            • The sooner you pay the loan amount, the less money you have to pay in interest for a loan.<br><br>"
+	},
+	{
+		"title": "Retirement Fund",
+		"val": "retireFund",
+		"text": "• 401K is a great place to start for retirement.<br><br>\n            • 401K is not guranteed to benefit you when you retire.<br><br>\n            • Open a fixed deposit account with reliable bank and lock certain amount of money for few years.<br><br>"
+	}
+]}

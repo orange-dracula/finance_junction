@@ -1,0 +1,27 @@
+{"facultymembers":[
+	{
+		"title": "Credit",
+		"id": "credit",
+		"text": "Credit is the ability to borrow money or access goods or services with the understanding that you'll pay later.\n            Lenders, merchants and service providers (known collectively as creditors) grant credit based on their confidence you can be trusted to pay back what you borrowed, along with any finance charges that may apply.<br><br>\n            Good credit is necessary if you plan to borrow money for major purchases, such as a car or a home. Or maybe you want to take advantage of the convenience and purchase-protection a credit card can provide.\n            A higher credit score can mean better interest rates and terms on loans and credit cards. Many card issuers also reserve their most enticing rewards cards for customers with great credit."
+	},
+	{
+		"title": "Interest",
+		"id": "interest",
+		"text": "Interest is essentially a rental or leasing charge to the borrower for the use of an asset.\n            In the case of a large asset, such as a vehicle or building, the lease rate may serve as the interest rate.\n            When the borrower is considered to be low risk by the lender, the borrower will usually be charged a lower interest rate.\n            If the borrower is considered high risk, the interest rate that they are charged will be higher.\n            Risk is typically assessed when a lender looks at a potential borrower's credit score, which is why it's important to have an excellent one if you want to qualify for the best loans."
+	},
+	{
+		"title": "Student Loans",
+		"id": "studentLoans",
+		"text": "A student loan is a type of loan designed to help students pay for post-secondary education and the associated fees, such as tuition, books and supplies, and living expenses. It may differ from other types of loans in the fact that the interest rate may be substantially lower and the repayment schedule may be deferred while the student is still in school. <br> <br>\n            Federal loans: Federal student loans are made by the government, with terms and conditions that are set by law, and include many benefits not typically offered with private loans.<br><br>\n            Private loans: Private loans are made by private organizations such banks, credit unions, and state-based or state-affiliated organizations, and have terms and conditions that are set by the lender (Private loans are generally more expensive)."
+	},
+	{
+		"title": "Bank Accounts",
+		"id": "bankAccounts",
+		"text": "Checking account:<br>\n            Like the name suggests, a checking account is generally used for making payments. The most common form of payments has historically been paper checks, but nowadays you can make payments via electronic wire transfers or with a debit card that links to the account.<br><br>\n            Savings account: <br>\n            While checking accounts are for spending, savings accounts are meant to keep money safe that you don’t immediately plan to spend. There are federally-regulated standards to limit consumers to making only six withdrawals or transactions from their savings account every month."
+	},
+	{
+		"title": "401K",
+		"id": "401K",
+		"text": "A 401(k) plan is a tax-advantaged, defined-contribution retirement account offered by many employers to their employees. It is named after a section of the U.S. Internal Revenue Code. Workers can make contributions to their 401(k) accounts through automatic payroll withholding, and their employers can match some or all of those contributions. The investment earnings in a traditional 401(k) plan are not taxed until the employee withdraws that money, typically after retirement. In a Roth 401(k) plan, withdrawals can be tax-free."
+	}
+]}
