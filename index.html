@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- references to links and title of the page -->
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <script src="index.js"></script>
+
+    <!-- jquery import -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <title>Home | Finance Junction</title>
+</head>
+
+<body class="index-body productGuide-body">
+<!-- navigation bar -->
+<header class="header">
+    <!-- list of items in navigation -->
+    <ul>
+        <li><a href="index.html"><img src="images/logo.jpg" alt="logo" class="logo"></a></li>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a class="inactive" href="path.html">Path</a></li>
+        <li><a class="inactive" href="calculator.html">Calculator</a></li>
+        <li><a class="inactive" href="community.html">Community</a></li>
+
+        <!-- start tour button for product tour -->
+        <li class="cd-nugget-info" style="float:right">
+            <button id="cd-tour-trigger" class="cd-btn">Start Tour</button>
+        </li>
+    </ul>
+</header>
+
+<main>
+    <!-- space for product guide html -->
+    <div style="display: none" id="productGuide"></div>
+
+    <!-- heading of the page -->
+    <h1 class="tagline">Start Your Financial Journey Here!</h1>
+
+    <!-- quick image links to content -->
+    <div class="quickLinks">
+        <a href="#topics-padding"><img id="credit-icon" class="icon" src="images/credit-icon.png" alt="credit cards"
+                                       onclick="topics(id)"></a>
+        <a href="#topics-padding"><img id="interest-icon" class="icon" src="images/interest-icon.png" alt="percent sign"
+                                       onclick="topics(id)"></a>
+        <a href="#topics-padding"><img id="studentLoans-icon" class="icon" src="images/student-icon.png"
+                                       alt="student with graduation hat" onclick="topics(id)"></a>
+        <a href="#topics-padding"><img id="bankAccounts-icon" class="icon" src="images/bank-icon.png" alt="bank"
+                                       onclick="topics(id)"></a>
+        <a href="#topics-padding"><img id="401K-icon" class="icon" src="images/retirement-icon.png" alt="piggy bank"
+                                       onclick="topics(id)"></a><br><br>
+    </div>
+    <!-- quick links captions -->
+    <div class="quickLinksCaption">
+        <a style="padding-left: 410px" id="credit-link" href="#topics-padding" onclick="topics(id)">Credit</a>
+        <a style="padding-left: 160px" id="interest-link" href="#topics-padding" onclick="topics(id)">Interest</a>
+        <a style="padding-left: 115px" id="studentLoans-link" href="#topics-padding" onclick="topics(id)">Student
+            Loans</a>
+        <a style="padding-left: 80px" id="bankAccounts-link" href="#topics-padding" onclick="topics(id)">Bank
+            Accounts</a>
+        <a style="padding-left: 110px" id="401K-link" href="#topics-padding" onclick="topics(id)">401K</a>
+    </div>
+
+    <!-- allows focus on the content when quick links are clicked (images or links) -->
+    <div id="topics-padding"></div>
+
+    <!-- used by ajax request to populate data -->
+    <div id="topics"></div>
+
+    <div class="padding"></div>
+</main>
+<!-- footer (information about the website and client) -->
+<footer class="footer">
+    <h2>About Us</h2>
+    <p>
+        This website was created for the purpose of teaching students and recent graduates about finance.<br>
+        Client Info-<br>
+        Name: Simran Bolla<br>
+        Email: sbolla1@uncc.edu
+    </p>
+</footer>
+</body>
+</html>

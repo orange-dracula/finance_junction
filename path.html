@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- references to links and title of the page -->
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="path.css">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <script src="path.js"></script>
+    <title>Path | Finance Junction</title>
+
+    <!--importing css and js for dialog ui widget-->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+<body>
+<!-- navigation bar -->
+<header>
+    <!-- list of items in navigation -->
+    <ul>
+        <li><a href="index.html"><img src="images/logo.jpg" alt="logo" class="logo"></a></li>
+        <li><a class="inactive" href="index.html">Home</a></li>
+        <li><a class="active" href="path.html">Path</a></li>
+        <li><a class="inactive" href="calculator.html">Calculator</a></li>
+        <li><a class="inactive" href="community.html">Community</a></li>
+    </ul>
+</header>
+<main>
+    <div class="padding"></div>
+    <!-- heading of the page -->
+    <h1 class="heading">Path Selection Test</h1>
+    <h3 class="sub-heading">Answer the following questions to determine the correct path!</h3>
+    <!-- path selection questions -->
+    <form>
+        <div class="form-container">
+            <!-- q1 -->
+            <h2>What is your classification?</h2>
+            <div>
+                <input class="qinput" type="radio" id="hsStud" name="classification" value="hsStud">
+                <label for="hsStud" class="qlabel">High School Student</label>
+                <input class="qinput" type="radio" id="colStud" name="classification" value="colStud">
+                <label for="colStud" class="qlabel">College Student</label>
+                <input class="qinput" type="radio" id="recGrad" name="classification" value="recGrad">
+                <label for="recGrad" class="qlabel">Recent Graduate</label>
+            </div>
+
+            <div class="padding3"></div>
+
+            <!-- q2 -->
+            <h2>What is your main financial goal?</h2>
+            <div>
+                <input class="qinput" type="radio" id="bankAcc" name="goals" value="bankAcc">
+                <label for="bankAcc" class="qlabel">Bank Account</label>
+                <input class="qinput" type="radio" id="colFund" name="goals" value="colFund">
+                <label for="colFund" class="qlabel">College Fund</label>
+                <input class="qinput" type="radio" id="credit" name="goals" value="credit">
+                <label for="credit" class="qlabel">Credit</label>
+                <input class="qinput" type="radio" id="four-o-one-k" name="goals" value="four-o-one-k">
+                <label for="four-o-one-k" class="qlabel">401K</label>
+                <input class="qinput" type="radio" id="loans" name="goals" value="loans">
+                <label for="loans" class="qlabel">Loans</label>
+                <input class="qinput" type="radio" id="retireFund" name="goals" value="retireFund">
+                <label for="retireFund" class="qlabel">Retirement Fund</label>
+            </div>
+            <div class="padding3"></div>
+
+            <!-- submit button -->
+            <div id="subBtn" class="subBtn"><input type="button" value="Submit"></div>
+            <br><br>
+        </div>
+    </form>
+
+    <!-- customized information container -->
+    <div class="path-container" id="path-container">Results will be displayed here once you answer the above
+        questions.
+    </div>
+    <div class="padding2"></div>
+
+    <!-- dialog box text -->
+    <div id="dialog" title="Path Selection">
+        <p>If you do not fit into any of the given categories, please answer the questions to the best of your abilities
+            as the results may still be helpful. </p>
+    </div>
+</main>
+<!-- footer (information about the website and the client) -->
+<footer>
+    <h2>About Us</h2>
+    <p>
+        This website was created for the purpose of teaching students and recent graduates about finance.<br>
+        Client Info-<br>
+        Name: Simran Bolla<br>
+        Email: sbolla1@uncc.edu
+    </p>
+</footer>
+</body>
+</html>

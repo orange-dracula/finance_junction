@@ -1,0 +1,251 @@
+/*changing basic properties for the whole page*/
+body {
+    margin: 0;
+    font-family: AppleGothic;
+}
+
+/*navigation bar*/
+
+/*active page*/
+header .active {
+    background-color: #3a506b;
+    color: #eed7c5;
+    padding: 30px 30px;
+}
+
+/*assigning properties to logo image like width and height*/
+.logo {
+    float: left;
+    width: 250px;
+    height: 62px;
+    padding: 14px 25px 0px 20px;
+    margin-right: 50px;
+}
+
+/*different padding for inactive pages*/
+.inactive {
+    padding: 30px 30px;
+}
+
+/*the following properties change the appearance of the list object in navigation bar*/
+header ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #eed7c5;
+    font-size: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+header li {
+    float: left;
+}
+
+header li a {
+    display: block;
+    color: #3a506b;
+    text-align: center;
+    text-decoration: none;
+}
+
+/*changes background when hover over any navigation options (pages)*/
+header li a:hover:not(.active) {
+    background-color: #dbc7b8;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/*paddings to be used in between elements*/
+.padding {
+    padding-bottom: 150px;
+}
+
+.padding2 {
+    padding-bottom: 100px;
+}
+
+.padding3 {
+    padding-bottom: 50px;
+}
+
+/*the following code is for the main content of the page*/
+main {
+    background-color: #1c2541;
+}
+
+/*heading of the page*/
+.heading {
+    text-align: center;
+    font-size: 50px;
+    color: #eed7c5;
+}
+
+.sub-heading {
+    color: #eed7c5;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+/*bxslider slide show properties*/
+.slide-show {
+    width: 540px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    z-index: -1;
+}
+
+.slide-show h1 {
+    background: #dfe3e6 url('images/bullet.gif') no-repeat 7px center;
+    margin: 0 auto;
+    padding: 3px 0 3px 25px;
+}
+
+.bx-wrapper {
+    margin-bottom: 20px;
+}
+
+/*changing properties of the main submission container*/
+.submission-container {
+    margin: auto;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 #2b2d42, 0 6px 20px 0 black;
+    background-color: #3a506b;
+    color: #eed7c5;
+    padding: 10px 40px;
+    width: 1100px;
+    height: 400px;
+}
+
+.submission-container h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.submission-container form {
+    padding-top: 30px;
+    text-align: center;
+    margin: 20px;
+}
+
+.submission-container label {
+    font-size: 25px;
+    padding: 20px;
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+}
+
+.submission-container input {
+    font-size: 20px;
+    padding: 15px 130px;
+    background-color: #eed7c5;
+    margin: auto;
+    text-align: left;
+}
+
+/*customizing to fit side by side*/
+#fname, #lname {
+    font-size: 20px;
+    padding: 15px 10px;
+    background-color: #eed7c5;
+    margin: auto;
+}
+
+/*submission button properties*/
+.submissionBtn {
+    padding-left: 143px;
+    padding-top: 10px;
+}
+
+.submission-container button {
+    height: 50px;
+    width: 200px;
+    background-color: #eed7c5;
+    padding: 10px 30px;
+    color: #3a506b;
+    font-size: 20px;
+    border-radius: 40px;
+}
+
+/*applying changes to main h2*/
+main h2 {
+    text-align: center;
+    color: #eed7c5;
+    font-size: 30px;
+}
+
+/*the following code is for the individual posts but applies same to all the posts*/
+.post-container {
+    margin: auto;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 #2b2d42, 0 6px 20px 0 black;
+    background-color: #3a506b;
+    color: #eed7c5;
+    padding: 10px 40px;
+    width: 1100px;
+    height: auto;
+}
+
+.post-container h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+/*reply container properties*/
+.reply-container {
+    display: inline-block;
+}
+
+/*leaving space to the sides*/
+.post-container form {
+    padding-top: 30px;
+    margin: 20px;
+}
+
+.post-container label {
+    font-size: 25px;
+    padding: 20px;
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+}
+
+.post-container input {
+    font-size: 20px;
+    padding: 15px 400px;
+    background-color: #eed7c5;
+    margin: auto;
+    text-align: left;
+}
+
+/*reply button*/
+.postBtn {
+    padding-left: 390px;
+    padding-top: 10px;
+}
+
+.post-container button {
+    background-color: #eed7c5;
+    font-size: 20px;
+    height: 50px;
+    width: 200px;
+    padding: 10px 30px;
+    color: #3a506b;
+    border-radius: 40px;
+}
+
+/*footer properties*/
+footer {
+    background-color: #eed7c5;
+    color: #2b2d42;
+    text-align: center;
+}
+
+footer h2, p {
+    margin: 0px 0px;
+    padding: 15px;
+}

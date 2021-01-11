@@ -1,0 +1,139 @@
+/*changing basic properties for the whole page*/
+body {
+    margin: 0;
+    font-family: AppleGothic;
+}
+
+/*navigation bar*/
+
+/*active page*/
+header .active {
+    background-color: #3a506b;
+    color: #eed7c5;
+    padding: 30px 30px;
+}
+
+/*assigning properties to logo image like width and height*/
+.logo {
+    float: left;
+    width: 250px;
+    height: 62px;
+    padding: 14px 25px 0px 0px;
+    margin-right: 50px;
+}
+
+/*different padding for inactive pages*/
+.inactive {
+    padding: 30px 30px;
+}
+
+/*the following properties change the appearance of the list object in navigation bar*/
+header ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #eed7c5;
+    font-size: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+header li {
+    float: left;
+}
+
+header li a {
+    display: block;
+    color: #3a506b;
+    text-align: center;
+    text-decoration: none;
+}
+
+/*changes background when hover over any navigation options (pages)*/
+header li a:hover:not(.active) {
+    background-color: #dbc7b8;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/*general padding to put in between sections*/
+.padding {
+    padding-bottom: 150px;
+}
+
+.padding2 {
+    padding-bottom: 100px;
+}
+
+.padding3 {
+    padding-bottom: 50px;
+}
+
+/*the following code is for the main content of the page*/
+main {
+    background-color: #1c2541;
+}
+
+.heading {
+    text-align: center;
+    font-size: 50px;
+    color: #eed7c5;
+}
+
+.sub-heading {
+    color: #eed7c5;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.form-container {
+    text-align: center;
+    color: #eed7c5;
+}
+
+.subBtn {
+    text-align: center;
+}
+
+.subBtn input[type=button] {
+    background-color: #eed7c5;
+    color: #3a506b;
+    height: 50px;
+    width: 200px;
+    padding: 10px 30px;
+    font-size: 20px;
+    border-radius: 40px;
+}
+
+/*path selections questions form*/
+.path-container {
+    margin: auto;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 #2b2d42, 0 6px 20px 0 black;
+    background-color: #3a506b;
+    color: #eed7c5;
+    padding: 30px 40px;
+    width: 1100px;
+    height: auto;
+}
+
+/*changing the properties of the content container*/
+.path-container h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+/*footer properties*/
+footer {
+    background-color: #eed7c5;
+    color: #2b2d42;
+    text-align: center;
+}
+
+footer h2, p {
+    margin: 0px 0px;
+    padding: 15px;
+}

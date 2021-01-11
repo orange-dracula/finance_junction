@@ -1,0 +1,174 @@
+/*changing basic properties for the whole page*/
+.index-body {
+    margin: 0;
+    font-family: AppleGothic;
+}
+
+/*navigation bar*/
+
+/*active page*/
+.header .active {
+    background-color: #3a506b;
+    color: #eed7c5;
+    padding: 30px 30px;
+}
+
+/*assigning properties to logo image like width and height*/
+.header .logo {
+    float: left;
+    width: 250px;
+    height: 62px;
+    padding: 14px 25px 0px 20px;
+    margin-right: 50px;
+}
+
+/*different padding for inactive pages*/
+.header .inactive {
+    padding: 30px 30px;
+}
+
+/*the following properties change the appearance of the list object in navigation bar*/
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #eed7c5;
+    font-size: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.header li {
+    float: left;
+}
+
+.header li a {
+    display: block;
+    color: #3a506b;
+    text-align: center;
+    text-decoration: none;
+}
+
+/*changes background when hover over any navigation options (pages)*/
+.header li a:hover:not(.active) {
+    background-color: #dbc7b8;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/*start tour button properties*/
+.cd-nugget-info {
+    float: right;
+    padding: 13px;
+}
+
+#cd-tour-trigger {
+    background-color: #3a506b;
+    color: #eed7c5;
+    height: 50px;
+    width: 200px;
+    padding: 10px 30px;
+    font-size: 20px;
+    float: right;
+    border-radius: 40px;
+}
+
+/*small padding for areas in between content*/
+.padding {
+    padding-bottom: 150px;
+}
+
+/*the following code is for the main content of the page*/
+main {
+    background-color: #1c2541;
+}
+
+/*big text to greet users with the purpose of the lab*/
+.tagline {
+    padding: 200px 300px 70px 300px;
+    font-size: 80px;
+    color: #eed7c5;
+    text-align: center;
+}
+
+/*the following code is for the three images associated with purpose of the website*/
+.icon {
+    width: 12%;
+    padding-left: 70px;
+}
+
+/*the following code is to implement quick link images and caption to allow one section at a time to appear to make the page shorter*/
+.quickLinks {
+    margin: 300px;
+    text-align: center;
+    display: inline;
+}
+
+.quickLinksCaption {
+    font-size: 20px;
+}
+
+.quickLinksCaption a:link {
+    color: #eed7c5;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.quickLinksCaption a:visited {
+    color: #eed7c5;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.quickLinksCaption a:hover {
+    color: #eed7c5;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.quickLinksCaption a:active {
+    color: #eed7c5;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+/*settings for content container*/
+.content-container {
+    margin: auto;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 #2b2d42, 0 6px 20px 0 black;
+    background-color: #3a506b;
+    color: #eed7c5;
+    padding: 30px 40px;
+    width: 1100px;
+    height: auto;
+    color: #2b2d42;
+}
+
+.content-container h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #eed7c5;
+}
+
+.content-container p {
+    font-size: 30px;
+    color: #eed7c5;
+}
+
+/*footer properties*/
+.footer {
+    background-color: #eed7c5;
+    color: #2b2d42;
+    text-align: center;
+}
+
+.footer h2, p {
+    margin: 0px 0px;
+    padding: 15px;
+}
+
+

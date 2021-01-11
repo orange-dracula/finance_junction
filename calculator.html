@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- references to links and title of the page -->
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="calculator.css">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <script src="calculator.js"></script>
+    <title>Calculator | Finance Junction</title>
+</head>
+<body>
+<!-- navigation bar -->
+<header>
+    <!-- list of items in navigation -->
+    <ul>
+        <li><a href="index.html"><img src="images/logo.jpg" alt="logo" class="logo"></a></li>
+        <li><a class="inactive" href="index.html">Home</a></li>
+        <li><a class="inactive" href="path.html">Path</a></li>
+        <li><a class="active" href="calculator.html">Calculator</a></li>
+        <li><a class="inactive" href="community.html">Community</a></li>
+    </ul>
+</header>
+<main>
+    <div class="padding"></div>
+    <!-- hading of the page -->
+    <h1 class="heading">Choose a Calculator</h1>
+
+    <!-- calculator selection through drop down menu -->
+    <div class="calc-container">
+        <select id="calc" name="calc">
+            <option value="budget" selected>Budget</option>
+            <option value="interest">Interest</option>
+            <option value="loan">Loan</option>
+        </select>
+    </div>
+
+    <div class="padding2"></div>
+    <!-- calculator option 1 -->
+    <div class="budgetCalc" id="budgetCalc">
+        <h2>Budget Calculator</h2>
+        <!-- form input for budget calculator-->
+        <form>
+            <input class="budgetInput" type="number" id="income" placeholder="Monthly Income"/><br>
+            <input class="budgetInput" type="number" id="rent" placeholder="Rent"/><br>
+            <input class="budgetInput" type="number" id="food" placeholder="Food"/><br>
+            <input class="budgetInput" type="number" id="utilities" placeholder="Utilities"/><br>
+            <input class="budgetInput" type="number" id="other" placeholder="Other"/><br><br>
+        </form>
+        <div class="budgetBtn" id="budgetBtn">
+            <button>Calculate</button>
+        </div>
+
+        <div class="padding2"></div>
+        <h2>Results</h2>
+        <p id="budgetResult">
+        </p>
+    </div>
+
+    <!-- calculator option 2 -->
+    <div class="interestCalc" id="interestCalc">
+        <h2>Interest Calculator</h2>
+        <!-- form input for budget calculator-->
+        <form>
+            <label for="amount">Amount: </label>
+            <input type="number" id="amount" name="amount"><br>
+            <label for="rate">Interest Rate: </label>
+            <input type="number" id="rate" name="rate"><br>
+            <label for="months">Time (in months): </label>
+            <input type="number" id="months" name="months"><br>
+        </form>
+        <div class="interestBtn" id="interestBtn">
+            <button>Calculate</button>
+        </div>
+        <br><br>
+        <div>
+            <label for="interestResult">Total: </label>
+            <input type="number" id="interestResult"><br>
+        </div>
+    </div>
+
+    <!-- calculator option 3 -->
+    <div class="loanCalc" id="loanCalc">
+        <h2>Loan Calculator</h2>
+        <!-- form input for budget calculator-->
+        <form action="#">
+            <label for="lnAmount">Loan Amount: </label>
+            <input type="number" id="lnAmount" name="lnAmount"><br>
+            <label for="lnRate">Interest Rate: </label>
+            <input type="number" id="lnRate" name="lnRate"><br>
+            <label for="lnYears">Loan Years: </label>
+            <input type="number" id="lnYears" name="lnYears"><br>
+        </form>
+        <div class="loanBtn" id="loanBtn">
+            <button>Calculate</button>
+        </div>
+        <br><br>
+        <div>
+            <label for="monthPay">Monthly Payments Amount: </label>
+            <input type="number" id="monthPay" name="monthPay"><br>
+        </div>
+    </div>
+    <div class="padding2"></div>
+</main>
+<!-- footer (information about the website and client -->
+<footer>
+    <h2>About Us</h2>
+    <p>
+        This website was created for the purpose of teaching students and recent graduates about finance.<br>
+        Client Info-<br>
+        Name: Simran Bolla<br>
+        Email: sbolla1@uncc.edu
+    </p>
+</footer>
+</body>
+</html>

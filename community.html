@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- references to links and title of the page -->
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="community.css">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <!-- importing necessary css and js for bxslider plugin -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+
+    <script src="community.js"></script>
+    <title>Community | Finance Junction</title>
+</head>
+<body>
+<!-- navigation bar -->
+<header>
+    <!-- list of items in navigation -->
+    <ul style="z-index: 1"> <!-- keeps the bxslider under the navigation bar when scrolling -->
+        <li><a href="index.html"><img src="images/logo.jpg" alt="logo" class="logo"></a></li>
+        <li><a class="inactive" href="index.html">Home</a></li>
+        <li><a class="inactive" href="path.html">Path</a></li>
+        <li><a class="inactive" href="calculator.html">Calculator</a></li>
+        <li><a class="active" href="community.html">Community</a></li>
+    </ul>
+</header>
+
+<main>
+    <div class="padding"></div>
+
+    <!-- greetings for the community page -->
+    <h1 class="heading">Welcome to the Community!</h1>
+    <h3 class="sub-heading">Community Guidelines</h3>
+
+    <!--slide show of community guidelines using bxslider-->
+    <div class="slide-show">
+        <!-- notice the alt text for the images -->
+        <ul id="slider">
+            <li><img src="images/guideline1.png" alt="Read, Respond, Ask" title="Purpose"></li>
+            <li><img src="images/guideline2.png" alt="Be respectful" title="Content"></li>
+            <li><img src="images/guideline3.png" alt="Community post accuracy" title="Accuracy"></li>
+        </ul>
+    </div>
+
+    <!-- main form to make a submission to the feed -->
+    <div class="submission-container">
+        <form id="getForm" action="#">
+            <label>Name:</label>
+            <input type="text" id="fname" name="fname" placeholder="First">
+            <input type="text" id="lname" name="lname" placeholder="Last"><br>
+
+            <label for="subject">Question:</label>
+            <input type="text" id="subject" name="subject" placeholder="What is your question?"><br>
+
+            <label for="description">Description:</label>
+            <input type="text" id="description" name="description" placeholder="Add a description"><br>
+
+            <div class="submissionBtn">
+                <button>Post</button>
+            </div>
+            <br><br>
+        </form>
+    </div>
+
+    <!-- displays posts from all the users -->
+    <h2>Feed</h2>
+
+    <!-- the following post is an example post that is hardcoded. -->
+    <div class="post-container">
+        <h3>Debit vs. Credit Card</h3>
+        <h4>John Doe</h4>
+        <p>
+            What is the main difference betweeen debit and credit card? Is there a monthly fee to use it?
+        <div class="reply-container">
+            <input type="text" id="reply1" name="reply1" placeholder="reply here...">
+            <div class="postBtn">
+                <button>Post</button>
+            </div>
+        </div>
+    </div>
+    <div class='padding2'></div>
+
+    <!-- the following are example posts that are pulled from the server -->
+    <div id="posts">
+    </div>
+    <div class="padding2"></div>
+</main>
+
+<!-- footer (information about the website and the client) -->
+<footer>
+    <h2>About Us</h2>
+    <p>
+        This website was created for the purpose of teaching students and recent graduates about finance.<br>
+        Client Info-<br>
+        Name: Simran Bolla<br>
+        Email: sbolla1@uncc.edu
+    </p>
+</footer>
+
+</body>
+</html>
